@@ -143,7 +143,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Allow requests from all origins (for development)
 CORS_ALLOWED_ORIGINS = [
     'https://portfolio-2tqg-7wi9bt7u7-jayesh-singhs-projects.vercel.app',
-    'https://portfolio-2jzqzbf2p-jayesh-singhs-projects.vercel.app/'
+    
 ]
 
 # Optional: Allow all headers and methods.
