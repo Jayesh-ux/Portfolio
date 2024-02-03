@@ -154,7 +154,11 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://portfolio-2tqg.vercel.app/'
+    "*",
+    'https://portfolio-2tqg.vercel.app/',
     
 ]
 
+ALLOWED_HOSTS =[
+    "*",
+]
