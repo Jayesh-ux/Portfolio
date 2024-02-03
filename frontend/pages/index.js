@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import RecentWorksContainer from "../components/recent-works-container";
 import FormCard from "../components/form-card";
 import HomeContainer from "../components/home-container";
-import About from "../components/about";
+import About from "../components/About";
 
 const FinalDesign = () => {
   useEffect(() => {
