@@ -152,11 +152,9 @@ CORS_ALLOW_HEADERS = [
     'x-requested-with',
     'your-custom-header',  # Add your custom header here
 ]
-# Allow requests from all origins (for development)
+
 CORS_ALLOWED_ORIGINS = [
-    'https://portfolio-2tqg-7wi9bt7u7-jayesh-singhs-projects.vercel.app',
+    'https://portfolio-2tqg.vercel.app/'
     
 ]
 
-# Optional: Allow all headers and methods.
-CORS_ALLOW_ALL_ORIGINS = False
