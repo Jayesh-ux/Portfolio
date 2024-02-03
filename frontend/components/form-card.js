@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import  { Button, FormControl, Input, Textarea, useToast } from "@chakra-ui/react";
+import  { Button, FormControl, Input, Textarea, Text, useToast } from "@chakra-ui/react";
 import { FormErrorMessage } from "@chakra-ui/react";
 import { sendContactForm } from "../lib/api";
 

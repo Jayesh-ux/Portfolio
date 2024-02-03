@@ -157,6 +157,7 @@ CORS_ALLOWED_ORIGINS = [
     # "*",
     'https://portfolio-2tqg.vercel.app',
     
+    
 ]
 
 # CORS_ORIGIN_ALLOW_ALL = True
