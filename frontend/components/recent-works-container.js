@@ -14,13 +14,7 @@ const RecentWorksContainer = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('https://portfolio-jade-tau-20.vercel.app',
-        {
-          headers:
-          {
-            'Access-Control-Allow-Origin' : '*'
-          }
-        });
+      const response = await axios.get('https://portfolio-jade-tau-20.vercel.app');
       setData(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);
