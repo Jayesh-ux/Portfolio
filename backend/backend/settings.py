@@ -153,11 +153,16 @@ CORS_ALLOW_HEADERS = [
     'your-custom-header',  # Add your custom header here
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    # "*",
-    'https://portfolio-2tqg.vercel.app',
+# CORS_ALLOWED_ORIGINS = [
+#     # "*",
+#     'https://portfolio-2tqg.vercel.app',
     
     
-]
+# ]
 
 # CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = [
+    'https://portfolio-2tqg.vercel.app',
+]
