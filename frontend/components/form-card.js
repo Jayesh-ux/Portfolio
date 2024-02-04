@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import  { Button, FormControl, Input, Textarea, Text, useToast } from "@chakra-ui/react";
+import  { Button, FormControl, Input, Textarea, useToast } from "@chakra-ui/react";
 import { FormErrorMessage } from "@chakra-ui/react";
 import { sendContactForm } from "../lib/api";
 
@@ -102,9 +102,9 @@ const FormCard = () => {
           <div className="self-stretch flex flex-row flex-wrap items-start justify-center py-0 px-[20.452892303466797px] gap-[21.43px] opacity-[0.44]">
             <div className="h-[84px] flex flex-col items-start justify-start gap-[8.38px]">
               {error && (
-                <Text color="red.300" my={4} fontsize="xl">
+                <Textarea color="red.300" my={4} fontsize="xl">
                   {error}
-                </Text>
+                </Textarea>
               )}
               <FormControl isRequired isInvalid={touched.name && !values.name}>
               <h4 className="m-0 relative text-inherit font-bold font-inherit">
